@@ -1,0 +1,265 @@
+/* NAV BAR */
+
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: steelblue;
+    border: solid;
+    opacity: 80%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightblue;
+} */
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #001f2b;
+  font-family: Arial;
+  border: solid;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00415a;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: solid;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #009bd6;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* NAV BAR */
+
+body {
+    /* https://static.vecteezy.com/system/resources/previews/000/273/915/original/ocean-background-vector.jpg 
+    https://img.freepik.com/free-vector/colorful-underwater-life-template_1284-37130.jpg?w=1480&t=st=1693398678~exp=1693399278~hmac=68790734c5e2cb3c89d08c6632914abd1c757838bed0c418009beac1d697ebb0
+    */
+    background-image: url(https://img.freepik.com/free-vector/colorful-underwater-life-template_1284-37130.jpg?w=1480&t=st=1693398678~exp=1693399278~hmac=68790734c5e2cb3c89d08c6632914abd1c757838bed0c418009beac1d697ebb0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    font-family: monospace, sans-serif, serif;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 45px;
+    /* color: */
+}
+
+table td {
+    border: solid;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    height: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+table {
+}
+
+td {
+    border-radius: 50px;
+    height: 50%;
+    background-color: #009bd6;
+}
+
+
+.typingbox {
+    width: 90%;
+    height: 10%;
+    border: solid;
+    padding: 10px 20px 10px 20px;
+    margin: 10px auto auto auto;
+    display: table;
+    
+}
+
+.typingboxcolor {
+    opacity: 80%;
+    background-color: #001f2b;
+}
+
+.chatscreen {
+    width: 90%;
+    height: 80%;
+    background-color: #001f2b;
+    border: solid;
+    padding: 20px;
+    margin: auto;
+    overflow: auto;
+    opacity: 83%;
+}
+
+.person1 {
+    background-color: ;
+}
+
+.person2 {
+    background-color: ;
+}
+
+.person3 {
+    background-color: ; 
+}
+
+
+.float {
+    display: inline-block;
+    float: right;
+}
+
+.twenty {
+    height: 20%;
+    margin-bottom: 10px;
+}
+
+.eighty {
+    height: 70%;
+}
+
+.center {
+    margin: auto;
+}
+
+.photo {
+    width: 90%;
+    display: block;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-width: 2px;
+}
+
+.part1 {
+    width: 10%;
+    background-color: red;
+    border: solid;
+    display: inline-block;
+    /* border-radius: 100px; */
+    border-radius: 40px;
+    
+}
+
+.part2 {
+    width: 80%;
+    background-color: green;
+    border: solid;
+    display: inline-block;
+    border-radius: 40px;
+}
+
+.plsresize {
+    width: 100%;
+}
+
+
+.rectangle {
+    /* max-height: 850px; */
+    width: 85%;
+    background-color: #009bd6;
+    border:solid;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 10px 20px;
+}
+
+
+.imgs {
+    width: 50%;
+    
+    /* max-height: 80%; */
+}
+
+.img {
+    width: 7%;
+    /* margin: 0px 5px 0px 0px; */
+    border: solid;
+    background-color: red;
+    display: inline-block;
+}
